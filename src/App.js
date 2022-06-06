@@ -14,7 +14,6 @@ const App = () => {
 
   const dispatch = useDispatch();
 
-  console.log(contacts.contacts);
   const [filter, setFilter] = useState('');
 
   // const firstRender = useRef(true);

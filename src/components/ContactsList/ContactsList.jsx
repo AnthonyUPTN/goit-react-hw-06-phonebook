@@ -1,7 +1,6 @@
 import ContactsItem from '../ContactsItem/ContactsItem';
 
 const ContactsList = ({ contacts, removeContact }) => {
-  console.log('contacts');
   return (
     <ul>
       {contacts.map(({ name, number, id }) => {

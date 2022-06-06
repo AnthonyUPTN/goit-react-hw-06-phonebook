@@ -7,8 +7,6 @@ import './index.css';
 
 import { store, persistor } from './redux/store';
 
-console.log(store);
-console.log(persistor);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
